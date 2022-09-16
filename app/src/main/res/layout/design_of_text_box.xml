@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/index_preserve"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/add_text_box"/>
+
+
+    <EditText
+        android:id="@+id/add_text_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write your text here..."
+        android:textSize="15sp"
+        android:layout_marginTop="2.5dp"
+        android:padding="10dp"
+        android:background="@drawable/edittext_design" />
+
+</RelativeLayout>
